@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="برنامج ادارة مكتب المحامي - قضايا المحامين - المهمات - المواعيد ">
+	<meta name="author" content="Manar Abo Alkheir">
+	<link rel="icon" href="img/favicon.ico">
+	<title id="eng-title">برنامج اورمانو لإدارة مكتب المحامي</title>
+	<!-- Font Awesome CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Googe Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+	<!-- Custom styles for this template -->
+	<link href="audiolanding.css" rel="stylesheet">
+	<!-- Jquery -->
+	<script src="js/jquery.js"></script>
+	<script src="https://kit.fontawesome.com/5f14e5a848.js" crossorigin="anonymous"></script>
+</head>
+<!-- Messenger المكون الإضافي "دردشة" Code -->
+<div id="fb-root"></div>
+
+<!-- Your المكون الإضافي "دردشة" code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "111932034499530");
+  chatbox.setAttribute("attribution", "biz_inbox");
+
+  window.fbAsyncInit = function() {
+	FB.init({
+	  xfbml            : true,
+	  version          : 'v12.0'
+	});
+  };
+
+  (function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+	fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+<body>
+
+	<!-- BEGIN HERO
+================================================== -->
+	<div>
+
+	</div>
+	<div class="section-hero" id="herro">
+		<div class="container text-center">
+			<div class="lan" id="lanEng">
+				<a class="btn btn-default2" onclick="arabicfun()" id="arabic">عربي</a> <a class="btn btn-success2"
+					onclick="engfun()" id="eng">ENG</a>
+			</div>
+			<h1 id="eng-h1">برنامج أورمانو لإدارة مكتب المحامي</h1>
+			<p id="eng-lead" class="lead">
+				الصفحة الرسمية ل برنامج اورمانو<br>
+				البرنامج الاول من نوعه لادارة ملفات وقضايا المحامين العرب
+			</p>
+			<p>
+				<a href="#about" class="btn btn-default" id="eng-btn-default"><i class="fa fa-arrow-circle-o-down"></i>
+					حمّل النسخة المجانية</a> أو <a href="#buynow" class="btn btn-success" id="eng-btn-success"><i
+						class="fa fa-shopping-cart"></i>   اشتر الان   </a>
+			</p>
+			<img src="img/hero.jpg" width="250" height="250">
+			<div><a href="#Engme" id="me"> من نحن ؟</a></div>
+
+		</div>
+		<!-- /.container -->
+	</div>
+	<!-- END HERO
+================================================== -->
+
+	<!-- BEGIN ABOUT
+================================================== -->
+	<section id="about">
+		<div class="margintob">
+		<div class="section-about">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-4" id="eng-col-md-4">
+						<p>
+						<ul>
+							
+							<div id="eng-col-md-4-1"><i class="fas fa-bell"></i>
+								&nbspخاصية التنبيه حيث يقوم البرنامج ب تنبيهك بالمواعيد القادمة
+							</div>
+							
+							
+							<div id="eng-col-md-4-2"><i class="fas fa-comments"></i>
+								&nbspخاصية ارسال الرسائل للمستخدمين
+							</div>
+							
+							
+							<div id="eng-col-md-4-3"><i class="fas fa-comments"></i>
+								&nbsp خاصية ارسال الرسائل عبر الانترنت شبكة الاتصالات التي تتيح أفضل اداء للمحامي
+
+							</div>
+							
+							
+							<div><i class="fas fa-wifi"></i>
+								&nbspالبرنامج يعمل بدون انترنت ومع وجود انترنت
+
+							</div>
+							
+							
+							<div><i class="fab fa-windows"></i>
+								</i>&nbsp البرنامج يعمل على جميع أجهزة الويندوز القديمة والحديثة
+
+							</div>
+							
+							
+							<div><i class="fas fa-file-import"></i>
+								</i>&nbsp خاصية النسخ الاحتياطي للملفات
+
+							</div>
+							
+							
+							<div>
+								<i class="fas fa-database"></i>
+								&nbsp خاصية استعادة البيانات
+
+							</div>
+							
+						
+
+							<div>
+								<i class="fas fa-download"></i>
+
+								&nbsp تحميل أحدث المراسيم والقوانين والاطلاع عليها
+
+							</div>
+
+							<br>
+							
+						</ul>
+						<!--<i class="fas fa-video"></i> <a href="#">فيديو توضيحي عن البرنامج</a>-->
+
+
+						</p>
+						<p>
+
+						</p>
+					</div>
+					<div class="col-md-4" id="eng-col-md-4">
+						<p>
+						<ul>
+							<p></p><i class="fas fa-balance-scale" id="one"></i>&nbsp أضخم مكتبة قانونية تضم كل ما يهم
+							المحامي ( مجلة المحامي – كتب في القانون – مراسيم – تشريعات – الدستور – قوالب جاهزة –
+							اجتهادات – وكالات )
+
+							<br>
+							<i class="fas fa-user-tie"></i>&nbsp أتمتة كافة القضايا والمهام الادارية والحسابات المالية (
+							الجرد الاسبوعي – الجرد الشهري – ديون العملاء - .. ) بإسلوب عصري مميز
+							<!--<br><br><i class="fas fa-business-time"></i>&nbsp  <i class="fas fa-print"></i><i class="far fa-folder-open"></i><i class="far fa-file-alt"></i> <i class="fas fa-user-edit">  <i class="far fa-calendar-alt"></i> -->
+							<br><i class="fas fa-history"></i> &nbspيتيح لك السرعة في انجاز المهام والدقة في العمل
+
+							<br><i class="fas fa-plus-circle"></i> &nbsp<i class="fas fa-edit"></i> &nbsp<i
+								class="fas fa-trash-alt"></i>&nbsp خصائص (إضافة – تعديل – حذف ) للقضايا وبيانات الموكلين
+							والخصوم
+
+							والمهام والمحامين وفروع المكتب
+
+							يدعم البرنامج وجود فروع عدة ل مكتب المهام وتنظيم المهام والقضايا لكل
+
+							فرع على حدى
+
+							<br> <i class="fas fa-coins"></i>&nbspأرشفة القضايا وتصنيفها ( قضايا رابحة – خاسرة )
+
+						</ul>
+						
+							يمكنك تحميل البرنامج من هنا
+							<br>
+
+
+						
+						<span class="badge badge-danger" id="eng-badge-danger">&nbsp تحميل البرنامج &nbsp<a
+								href="C:\Users\Memo\Downloads\audiolanding\img" download id="here"><i
+									class="fas fa-download"></i><br>&nbsp..من هنا..&nbsp</a></span>
+									<div id="paymentMethods"></div>
+									<br>
+									
+								  
+								
+						</p>
+						</p>
+						<p>
+						<ul>
+	
+
+						</ul>
+						</p>
+						</p>
+					</div>
+					<div class="col-md-4" id="eng-col-md-4">
+						<h2 id="eng-h2-col-md-4"> لمحة عن برنامج أورمانو لإدارة مكتب المحامي</h2>
+						<div class="spacer">
+						</div>
+						<h5 id="eng-h4-col-md-4">لماذا يجب عليك شراؤه؟ </h5>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+	<!-- END ABOUT
+================================================== -->
+
+	<!-- BEGIN TESTIMONIALS
+================================================== -->
+	<section id="testimonials">
+		<div class="container">
+			<div class="text-center">
+				<h3 class="text-white margin-bottom40" id="eng-text-white margin-bottom40"> خصائص برنامج أورمانو لإدارة
+					مكتب المحامي</h3>
+			</div>
+			<div class="card-columns">
+				<div class="card">
+					<img class="card-img-top img-fluid" src="img/icon1.png" alt="Card image cap">
+
+					<p id="one-card">الاستشارات - المهام الخاصة
+
+						<br> تسجيل بيانات المهمة الخاصة
+
+						<br>مهام قيد العمل
+
+
+						<br>مهام منتهة
+						<br>مهام ملغية
+
+						<br>تقارير المهام الخاصة
+						<br>تنظيم مواعيد المهام الخاصة
+
+					</p>
+
+				</div>
+
+				<div class="card">
+					<img class="card-img-top img-fluid" src="img/icon8.png" alt="Card image cap">
+
+					<p id="four-card">
+						<br>
+						تفعيل التنبيهات
+						<br> تنظيم المواعيد القادمة
+
+						<br>ارسال رسالة إلى الموكل لتأكيد الموعد
+						<br>تقارير المواعيد القادمة
+						اسبوعية - شهرية
+						<br>
+						طباعة التقارير
+						<br>
+						وذلك لأجل توفير الوقت وتنظيم العمل والتميّز
+					</p>
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="img/icon9.png" alt="Card image cap">
+					<p id="two-card">التحكم الكامل بملفات القضية
+						<br> تنظيم القضايا ب اسلوب مميز يوفر الوقت والجهد
+						<br> إضافة قضايا جديدة
+						<br> تعديل بيانات القضية الحالية
+						<br> أرشفة القضايا
+						<br> سهولة تامة في البحث عن القضايا
+						<br>
+						<br>
+					</p>
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="img/icon7.png" alt="Card image cap">
+					<p id="five-card">المراقبات
+
+						<br> يمكن للمستخدم المسؤول مراقبة كافة العمليات والمهام المنفذة داخل البرنامج من قبل المستخدمين
+						الاخرين
+						<br>
+						وهذا يجعل البرنامج آمنا وفعّال بنسبة 100% ومن السهل معرفة المسؤول عن أي خطأ
+						<br><br>
+						<br>
+					</p>
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="img/icon3.png" alt="Card image cap">
+					<p id="three-card">تنظيم قضايا المحامي
+
+						<br>تسجيل كافة البيانات وحمايتها من الضياع
+						<br>تقارير القضايا الرابحة اسبوعيا
+						<br>تقارير القضايا الخاسرة اسبوعيا
+						<br>إضافة مستندات القضية وكافة الصور المتعلقة بها
+						<br> طباعة تقارير القضايا
+						<br>تنبيه المحامي بمواعيد الجلسات القادمة
+					</p>
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="img/icon1.png" alt="Card image cap">
+					<p id="six-card">صلاحيات المستخدمين
+						<br>
+
+						يمكن التحكم ب سهولة ب صلاحيات كل مستخدم وذلك من قبل المستخدم المسؤول
+						<br>
+						إن منح الصلاحية لأحد المستخدمين أو منعها عنه
+
+						<br>
+						تعطي الأمان التام للتعامل مع البرنامج ويجعل المحامي هو المسؤول الأول عن المهام الحساسة
+						<br><br>
+					</p>
+				</div>
+
+			</div>
+			<div class="card">
+				<div class="card-block">
+
+					<p class="card-text" id="eng-card-text">
+						<big class="text-muted">برنامج اورمانو ..سبيلك للتميّز</big>
+					</p>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+	<!-- END TESTIMONIALS
+================================================== -->
+
+	<!-- BEGIN BUY NOW
+================================================== -->
+	<section id="buynow">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-5" id="eng-col-md-5">
+					<h3 class="margin-bottom30" id="five-year">نسخة 5 سنوات</h3>
+					<p id="pa-five-year">
+						المميزات
+						<br>
+
+						عند شراؤك هذه النسخة إنّ البرنامج يعمل لمدة خمس سنوات ويمكنك إعادة التفعيل عند انتهاء المدة
+						الزمنية
+						<br><br>
+						كما عند شرائك ل نسخة السنة الواحدة فنحن أيضا عند شرائك لنسخة ال5 سنوات سنرحب بك عميلا دائما
+						<br>
+						ونحرص دائما على أن نكون على اتصال معك
+						<br><br>
+						حين مواجهنك لأي مشكلة أو طلب أي استفسار لاتتردد أبدا <br>
+						<br>
+						يسعدنا مساعدتك وتقديم أفضل الخدمات لك
+						<br>
+						كما ستكون أول من يحصل على تطبيق اورمانو للجوال الجديد فور توافره لدينا
+						<br><br><br>
+					</p>
+
+
+					<br />
+					<br>
+					<h5>الشروط والاحكام</h5>
+					<ul>
+						<li>ليس لك الحق في بيع اي نسخة دون الرجوع إلى صاحب البرنامج</li>
+						<li>هل انت موافق <span class="showcursor badge badge-danger" data-toggle="modal"
+								data-target="#termsofuse">على الشروط والاحكام</span> قبل الشراء.</li>
+					</ul>
+					<br />
+					<?php include('paypal_config.php');?>
+					<script src="//www.paypalobjects.com/api/checkout.js" ></script>
+					<script type="text/javascript">
+						window.onload = function(){
+				
+						  var CREATE_PAYMENT_URL  = './paypal_ec_redirect.php';
+						  var formdata = {PAYMENTREQUEST_0_ITEMAMT: 10, PAYMENTREQUEST_0_SHIPPINGAMT : 5,PAYMENTREQUEST_0_TAXAMT: 2, PAYMENTREQUEST_0_AMT: 17 , paymentType:'SALE', PAYMENTREQUEST_0_CURRENCYCODE: 'USD', currencyCodeType: 'USD'};
+				
+							paypal.Button.render({
+				
+								env: 'sandbox',  // sandbox | production
+								locale: 'en_US',
+								style: {
+									size: 'small',   // tiny | small | medium
+									color: 'gold',	// gold | blue | silver
+									shape: 'pill',	// pill | rect
+									label: 'checkout' // checkout | credit
+								},
+								payment: function(resolve) {
+									jQuery.post(CREATE_PAYMENT_URL,formdata,function(data) {
+										console.log("Displaying data here: " + data);
+										resolve(data); // no data.token, b/c data.token is json format
+									});
+								},
+				
+								onAuthorize: function(data, actions) {
+				
+								  var EXECUTE_PAYMENT_URL  = './paypal_ec_redirect.php';
+				
+								  jQuery.post(EXECUTE_PAYMENT_URL,
+								  {payToken: data.paymentID, payerId: data.payerID},function(response) {
+								  // if successful navigate to success page
+								  // else
+								  if (response === '10486') {
+									 actions.restart();
+				
+								  }});
+								 return actions.redirect();
+				
+								},
+				
+								onCancel: function(data, actions) {
+									return actions.redirect();
+								}
+				
+							}, '#paymentMethods');
+				}
+				   </script>
+
+					<h5></h5>
+					<p id="contact-wats">
+						<br><i></i>للتواصل عبر الواتساب أو التلغرام
+						<br>
+						
+						<a href=""><i class="fas fa-phone"></i>&nbsp+963954733726</a>
+					</p>
+				</div>
+
+
+				<div class="col-md-4" id="eng-col-4">
+
+
+					<h3 class="margin-bottom30" id="one-year">النسخة السنوية</h3>
+					<p id="pa-one-year">
+						المميزات
+						<br>
+						عند شراؤك للنسخة السنوية إن البرنامج يعمل لمدة اثنا عشر شهرا يمكنك إعادة تفعيله بكل تأكيد
+						<br>
+						مع اورمانو نحن ملزمون بإضافة تحديثات بشكل دائم للبرنامج <br><br>وذلك بإشراف مجموعة من المحامين
+						الذين يبدون آراءهم
+
+						<br>
+						نحن أيضا ملزمون بالاجابة عن أي استفسار عن البرنامج أو طريقة عمله
+						<br>
+						ونرحب باستفساراتكم عبر ساعات العمل النهارية
+
+						<br>
+						وبكل تأكيد في حال مواجهتك لأي مشكله عند استخدام البرنامج <br> نحن أيضا لن نبخل بالعمل وحل
+						المشكلة وذلك حرصا منا على تقديم أفضل الخدمات
+						<br><br>
+						يمكنك طرح الاسئلة والاستفسار قبل وبعد شراء البرنامج وتزويدنا بآراءكم الطيبة
+
+					</p>
+
+
+
+					<h5 id="condition">الشروط والاحكام</h5>
+					<ul>
+						<li id="permission">ليس لك الحق في بيع اي نسخة دون الرجوع إلى صاحب البرنامج</li>
+						<li>هل انت موافق <span class="showcursor badge badge-danger" data-toggle="modal"
+								data-target="#termsofuse" id="buy">على الشروط والاحكام</span> قبل الشراء.</li>
+						
+					</ul>
+					<br />
+					<h5></h5>
+					<p id="contact-email">
+						<br>
+						يمكن المراسلة عبر الايميل التالي
+						<br>
+						<a href="manarfouaa@gmail.com"><i class="far fa-envelope"></i>&nbsp manarfouaa@gmail.com</a>
+					</p>
+					<!-- begin shop embed code here (use Gumroad it's free & cool) -->
+
+				</div>
+				<div class="col-md-3" id="eng-col-3">
+					<h2>هل أنت جاهز <br />
+						اشتر البرنامج</h2>
+					<div class="spacer">
+					</div>
+					<h6 class="margin-bottom30"> <i class="fa fa-arrow-circle-right"></i></h6>
+					<img class="showcursor2" src="img/hero.jpg" width="100%" height="auto">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END BUY NOW
+================================================== -->
+	<section id="Engme">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-5" id="eng-col-md-5">
+					<h3 class="margin-bottom30" id="courses">التعليم & الشهادات</h3>
+					<p id="content-courses">
+
+						c# & SQL تصميم وبناء برامج أتمتة باستخدام <br><br>
+						C# & SQL Server البرمجة باستخدام لغة <br><br>
+
+						<br> <br> بكالورياس في الهندسة الكهربائية <br><br> اختصاص الطاقة الكهربائية دمشق-سوريا <br> <br>
+						<br>
+						درجة المشاركة في ورشة علم الاختراع والتطوير دمشق-سوريا
+
+
+
+						<br>
+					</p>
+
+
+					<br />
+
+
+				</div>
+
+
+				<div class="col-md-4" id="eng-col-4">
+					<!-- begin shop embed code here (use Gumroad it's free & cool) -->
+					<h3 class="margin-bottom30" id="works"> العمل & المهارات</h3>
+					<p id="content-works">مهندسة متخرجة من جامعة دمشق
+						<br><br>
+						أعمل في مجال تطوير برمجيات سطح المكتب
+						<br><br>
+						معرفة جيدة ب لغات برمجة الويب وتصميم تجربة المستخدم
+
+						<br><br><br>
+						أسس الهندسة الكهربائية
+						<br><br>
+						برمجة المتحكمات الصغرية والانظمة المدمجة
+						<br><br>
+						تصميم الدارات الالكترونية
+
+						<br />
+
+					<p>
+					</p>
+				</div>
+				<div class="col-md-3" id="eng-col-3">
+					<h2 id="myname">منار أبو الخير <br />
+					</h2>
+					<div class="spacer" id="spacer">
+					</div>
+					<!--<h6 class="margin-bottom30"> <i class="fas fa-user-edit"> </i></h6>-->
+					<img class="showcursor2" src="img/manar.jpg" width="100%" height="auto" id="img">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- BEGIN FIXED BOTTOM SOUNDCLOUD
+================================================== -->
+
+	<!-- END FIXED BOTTOM SOUNDCLOUD
+================================================== -->
+
+	<!-- BEGIN FOOTER
+================================================== -->
+	<section class="footer">
+		<div id="map">
+
+		</div>
+		<p id="location">
+
+		</p>
+		<p class="credits">
+			Copyright 2020 @ www.Ormano.com. Free Template by <a href="https://www.wowthemes.net">WowThemes.net</a>
+		</p>
+		<ul class="footericons">
+			<li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+			<li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+			<li><a target="_blank" href="https://www.youtube.com/c/QuietCalmMusiC"><i class="fa fa-youtube"></i></a>
+			</li>
+
+		</ul>
+	</section>
+	<!-- END FOOTER
+================================================== -->
+
+
+	<!-- BEGIN Modal for Terms of Use
+================================================== -->
+	<div class="modal fade" id="termsofuse" tabindex="-1" role="dialog" aria-labelledby="termsofuse" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">الشروط والاحكام</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body" id="eng-modal-body">
+
+					<p>
+					<ol>
+
+						<li> من حق الزبون الاستفسار و طلب صيانة في حال واجهنه اي مشكلة عند العمل على البرنامج وذلك بعد
+							شراء البرنامج وبشكل مجاني دون أي رسوم اضافية.</li>
+						<li> لا يحق للزبون نسخ أو تصوير أو نشر مقاطع فيديو عن البرنامج أو الترويج له بطرق غير مشروعة أو
+							بيعه دون الرجوع إلى صاحب البرنامج.</li>
+						<li> يحصل الزبون على النسخ الجديدة والمعدلة من البرنامج.</li>
+					</ol>
+
+					</p>
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END Modal for Terms of Use
+================================================== -->
+
+
+
+
+
+	<!-- Bootstrap core JavaScript
+================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/tether.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/audiolanding.js"></script>
+	<script src="js/PayPal.js"></script>
+	<script src="js/ie10-viewport-bug-workaround.js"></script>
+	<script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+	</script>
+	<!--<div class="elfsight-app-8fc393a2-87e3-4e87-868f-a928c2d623ac"></div>-->
+	
+
+
+</body>
+
+</html>
